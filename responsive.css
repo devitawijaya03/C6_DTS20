@@ -1,0 +1,111 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .our-team {
+    width: 210px;
+  }
+  .main h1 {
+    font-size: 32px;
+  }
+  
+  .heading h1 {
+    font-size: 20px;
+  }
+
+.contact{
+  margin-left: 10px;
+}
+
+
+.contact2{
+  text-align: center;
+}
+input,textarea {
+  
+  width:200px;
+}
+.gambar img{
+    width:90%;
+  }
+  
+.footer-logo {
+ text-align: center;
+ float: left;
+
+}
+
+.footer-list{
+ float: left;
+}
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+ .our-team {
+    width: 75%;
+    float: none;
+  }
+  
+  footer {
+    text-align: center;
+    width: 50%
+  }
+  
+  .contact{
+  color: #F7CE3E;
+  float: none;
+  margin-left: 50px;
+}
+
+.contact2{
+  margin: 50px;
+  text-align: left;
+  float: none;
+
+}
+input,textarea {
+  
+  width:200px;
+}
+
+  header img {
+  width: 135px;
+  float: left;
+  padding-top: 5px;
+}
+
+  
+  .main {
+    text-align: center;
+  }
+  
+  /* Tambahkan CSS untuk header-right */
+  .header-right{
+    display:none;
+  }
+  
+  /* Tambahkan CSS untuk menu-icon */
+  .menu-icon{
+    display:block;
+    margin-right: -50px;
+  }
+  
+  .main h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  
+  .main p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .gambar img{
+    width:90%;
+  }
+  .footer-logo {
+ text-align: center;
+}
+footer p {
+  font-size: 10px;
+}
+
+}
